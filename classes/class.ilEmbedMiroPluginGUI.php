@@ -17,13 +17,13 @@ use ILIAS\GlobalScreen\Scope\Layout\MetaContent\MetaContent;
  * @ilCtrl_isCalledBy ilEmbedMiroPluginGUI: ilPCPluggedGUI
  */
 class ilEmbedMiroPluginGUI extends ilPageComponentPluginGUI {
-		private ilCtrl $ctrl;
-        private Factory $ui_factory;
-        private Renderer $ui_renderer;
-        private RequestInterface $request;
-        private Refinery\Factory $refinery;
-        private ilGlobalPageTemplate $tpl;
-        private MetaContent $gs_meta;
+		private $ctrl;
+        private $ui_factory;
+        private $ui_renderer;
+        private $request;
+        private $refinery;
+        private $tpl;
+        private $gs_meta;
 		
 		function __construct() {
 			global $DIC;
