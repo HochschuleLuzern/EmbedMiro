@@ -1,0 +1,28 @@
+.xmiro_orientation_left, .xmiro_orientation_center, .xmiro_orientation_right,
+.xmiro_orientation_left_float, .xmiro_orientation_right_float {
+	position: relative;
+}
+
+.xmiro_orientation_left:after, .xmiro_orientation_right:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.xmiro_orientation_center div {
+	margin-left: auto;
+	margin-right: auto;
+	display: table;
+}
+
+.xmiro_orientation_right div {
+	float:right;
+}
+
+.xmiro_orientation_left_float div {
+	float: left;
+}
+
+.xmiro_orientation_right_float div {
+	float: right;
+}
