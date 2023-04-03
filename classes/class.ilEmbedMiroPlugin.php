@@ -7,12 +7,12 @@
  *
  */
 class ilEmbedMiroPlugin extends ilPageComponentPlugin {
-        public function getPluginName() {
+        public function getPluginName(): string {
             return 'EmbedMiro';
         }
         
         
-        public function isValidParentType($a_parent_type) {
+        public function isValidParentType($a_parent_type) : bool{
             return true;
         }
 }

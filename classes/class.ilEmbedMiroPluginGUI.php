@@ -38,7 +38,7 @@ class ilEmbedMiroPluginGUI extends ilPageComponentPluginGUI {
 			parent::__construct();
 		}
 		
-        public function executeCommand() {
+        public function executeCommand() : void{
             $cmd = $this->ctrl->getCmd();
             switch ($cmd) {
                 case "create":

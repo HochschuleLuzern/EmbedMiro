@@ -1,9 +1,9 @@
 <?php
 	$id = 'xmiro';
-	$version = '0.0.1';
+	$version = '0.0.2';
 
 	$ilias_min_version = '7.0';
-	$ilias_max_version = '7.999';
+	$ilias_max_version = '8.999';
 
-	$responsible = 'Stephan Winiker';
-	$responsible_mail = 'stephan.winiker@hslu.ch';
+	$responsible = 'Mark Salter';
+	$responsible_mail = 'mark.salter@hslu.ch';
