@@ -73,7 +73,7 @@ class ilEmbedMiroPluginGUI extends ilPageComponentPluginGUI {
             }
             
             if ($created) {
-                ilUtil::sendSuccess($this->lng->txt("msg_obj_modified"), true);
+                ilEmbedMiroPlugin::sendSuccess($this->lng->txt("msg_obj_modified"), true);
             }
             
             $this->tpl->setContent($this->ui_renderer->render($form));
