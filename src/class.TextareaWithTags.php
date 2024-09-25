@@ -7,10 +7,6 @@ class TextareaWithTags extends Textarea implements C\Input\Field\Textarea {
         \ILIAS\Refinery\Factory $refinery,
         $label,
         $byline) {
-        ILIAS\UI\Implementation\Component\Input\Field\Input::__construct(
-            $data_factory,
-            $refinery,
-            $label,
-            $byline);
+        parent::__construct($data_factory, $refinery, $label, $byline);
     }
 }
