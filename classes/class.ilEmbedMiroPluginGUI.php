@@ -91,7 +91,7 @@ class ilEmbedMiroPluginGUI extends ilPageComponentPluginGUI {
                 $miro = [];
                 preg_match('/width=[\"\']([0-9]{1,5})[\"\']/', $v, $miro['width']);
                 preg_match('/height=[\"\']([0-9]{1,5})[\"\']/', $v, $miro['height']);
-                preg_match('/\?moveToViewport=(-?[0-9]{1,5},-?[0-9]{1,5},-?[0-9]{1,5},-?[0-9]{1,5})/', $v, $miro['viewport']);
+                preg_match('/\?(embedMode=view_only_without_ui&|)moveToViewport=(-?[0-9]{1,6},-?[0-9]{1,6},-?[0-9]{1,6},-?[0-9]{1,6})/', $v, $miro['viewport']);
                 preg_match('/live-embed\/([^\/]{1,20})\//', $v, $miro['hash']);
                 
                 array_walk($miro, function (array &$value, string $key) {
