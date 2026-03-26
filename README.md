@@ -4,7 +4,7 @@ This COPage-Plugin adds a Page Element Type "Miro Board" to the ILIAS Page Edito
 
 Contact
 -------
-[Stephan Winiker - Hochschule Luzern](https://www.hslu.ch/de-ch/hochschule-luzern/ueber-uns/personensuche/profile/?pid=2939)
+Hochschule Luzern
 
 Licence
 -------
@@ -15,4 +15,4 @@ The Embed Miro Board in Page Editor Plugin is distributed in the hope that it wi
 You should have received a copy of the GNU General Public License along with the Embed Miro Board in Page Editor Plugin.  If not, see <http://www.gnu.org/licenses/>.
 
 **Installation Path:**
-<ILIAS_directory>/Customizing/global/plugins/Services/COPage/PageComponent/EmbedMiro
+<ILIAS_directory>/public/Customizing/global/plugins/Services/COPage/PageComponent/EmbedMiro
