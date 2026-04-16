@@ -1,6 +1,5 @@
 <?php
 declare(strict_types = 1);
-include "Customizing/global/plugins/Services/COPage/PageComponent/EmbedMiro/src/class.TextareaWithTags.php";
 
 use ILIAS\UI\Factory;
 use ILIAS\UI\Renderer;
